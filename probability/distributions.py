@@ -113,9 +113,3 @@ class Distribution:
 
             
 
-print(variance(expectationvalue([1,2,3], [0.5, 0.5, 0.5]), [1,2,3], [0.5, 0.5, 0.5], True))
-x = Distribution(50, 0.5)
-x.binomial(5)
-x.values()
-
-print(x.value)
